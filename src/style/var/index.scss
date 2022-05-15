@@ -1,0 +1,40 @@
+@import './function';
+
+// 主题色
+$theme-color: #007aff;
+// 成功色
+$success-color: #40AE36;
+// 通用边距
+$commonPadding: 30rpx;
+// 边框弧度
+$borderRadius: 20rpx;
+// 边框颜色
+$border-color: #ECECEC;
+// 浅背景色
+$bg-gray: #F8F9FA;
+
+$font-sizes: (
+  mini: 24rpx,
+  small: 26rpx,
+  default: 28rpx,
+  middle: 32rpx,
+  large: 40rpx
+);
+
+
+$font-colors: (
+  gray: #999,
+  lightBalck: #333,
+  theme: $theme-color,
+  success: $success-color,
+  error: #F55726
+);
+
+.dot {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 业务相关
+$detail-bottom-operation-height: 160rpx;

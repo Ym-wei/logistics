@@ -1,0 +1,10 @@
+/build/
+/config/
+/dist/
+/src/common/*
+/src/pages_report/components/*
+/src/utils/*
+/src/common/uLi-load-more/*
+/src/common/crypto/*
+/src/utils/change.js
+/src/assets/iconfont/*
