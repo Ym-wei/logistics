@@ -2,7 +2,10 @@
   <view class="container">
     <view class="order" v-for="item in list" :key="item.id">
       <view class="state">
-        <text class="time">2022.5.11 21:36:42</text>
+        <text class="time">
+          <uni-icons custom-prefix="iconfont" type="icon-tuihuo" color="#e4393c" size="18"/>
+          2022.5.11 21:36:42
+        </text>
         <text class="state-name">待收货</text>
       </view>
       <view @click="skipDetail(item.id)">
