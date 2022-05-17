@@ -89,7 +89,12 @@ import './index.scss'
 
 const currentRefs:any = getCurrentInstance()!
 const showPrice = () => {
-  currentRefs.ctx.$refs.popup.open();
+  // TODO 发货
+  routePush({
+    url: '../../page_order/shipments/index'
+  })
+  //  TODO 立即支付
+  // currentRefs.ctx.$refs.popup.open();
 }
 const closePrice = () => {
   currentRefs.ctx.$refs.popup.close();

@@ -7,7 +7,7 @@
               class="image"
               mode="aspectFill"
               @click="clickImage"
-              src="https://bjetxgzv.cdn.bspapp.com/VKCEYUGU-uni-app-doc/6acec660-4f31-11eb-a16f-5b3e54966275.jpg"
+              src="https://zp-test.oss-cn-shenzhen.aliyuncs.com/static/uploads/files/202205/16/1637/56ce97d6-1bec-44cb-8442-1355dddfa9e4.png?Expires=3229490233&OSSAccessKeyId=LTAIHuXFYqSlhUPF&Signature=NsmHBMvY47RAfZLNpMoID04%2FD1A%3D"
           />
           <view class="more-wrap" v-if="index === 2 && hasMore" @click="showMoreImage">
             <view class="more">更多...</view>

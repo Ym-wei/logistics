@@ -1,4 +1,5 @@
 export * from './route'
+export * from './validate'
 
 /**
  * 获取uui

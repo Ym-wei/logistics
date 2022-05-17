@@ -7,6 +7,12 @@
   },
   "pages": [
     {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
       "path": "pages/index/index",
       "style": {
         "navigationBarTitleText": "首页"
@@ -52,6 +58,12 @@
           "path": "shopList/index",
           "style": {
             "navigationBarTitleText": "商品列表"
+          }
+        },
+        {
+          "path": "shipments/index",
+          "style": {
+            "navigationBarTitleText": "发运物流录入"
           }
         }
       ]

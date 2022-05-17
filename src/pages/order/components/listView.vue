@@ -6,7 +6,7 @@
           <uni-icons custom-prefix="iconfont" type="icon-tuihuo" color="#e4393c" size="18"/>
           2022.5.11 21:36:42
         </text>
-        <text class="state-name">待收货</text>
+        <text class="state-name">待收货{{ store.count}}</text>
       </view>
       <view @click="skipDetail(item.id)">
         <view class="name">广东省运通四方</view>
@@ -39,6 +39,7 @@
 <script setup lang="ts">
 import {defineProps} from "vue";
 import {TOrder} from "../type";
+import {userStore} from "../../../store/user";
 import Logistics from './logistics.vue'
 defineProps({
   list: {
@@ -48,6 +49,7 @@ defineProps({
     },
   }
 })
+const store = userStore()
 
 const emit = defineEmits(['skip'])
 
