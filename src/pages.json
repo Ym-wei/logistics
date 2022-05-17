@@ -67,6 +67,18 @@
           }
         }
       ]
+    },
+    {
+      "root": "page_driver",
+      "name": "page_driver",
+      "pages": [
+        {
+          "path": "index/index",
+          "style": {
+            "navigationBarTitleText": "订单列表"
+          }
+        }
+      ]
     }
   ],
   "tabBar": {
